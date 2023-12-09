@@ -1,0 +1,57 @@
+
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+   .main{
+    position: relative;
+    height: 70vh;
+    background-color: #968585;
+    }
+    .mainLabel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    }
+    .services{
+        position: relative;
+        height: 30vh;
+        background-color: #ffffff;
+        text-align: center;
+    }
+  
+  .textservices{
+    display: inline-block;
+    margin: 20px;
+  }
+  .cards-services {
+    margin: 1% 8% 8%;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Равномерное распределение между карточками */
+}
+
+.card {
+    width: calc(30% - 2%); /* Устанавливаем ширину карточки так, чтобы влезали три в ряд на всех экранах с учетом отступа между карточками */
+    height: 100%;
+    margin-bottom: 2%; /* Добавляем небольшой отступ между карточками */
+    background-color: #968585;
+}
+ 
